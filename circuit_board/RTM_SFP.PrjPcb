@@ -292,23 +292,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TBPVXUEN
 
-[Document16]
-DocumentPath=RTM_SFP.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [ProjectVariant1]
 UniqueID=FF231EE7-B2CF-4DCD-B2E8-41FDE2613107
 Description=White Rabbit Copper SFP
@@ -1566,19 +1549,19 @@ ComponentUpdate34=0
 ComponentIsDeviceSheet34=0
 ComponentLibIdentifierKind35=Library Name And Type
 ComponentLibraryIdentifier35=LIBRARY_SCH.SCHLIB
-ComponentDesignItemID35=
+ComponentDesignItemID35=LED_SMD_90deg_mini_B
 ComponentSymbolReference35=LED_SMD_90deg_mini_B
 ComponentUpdate35=0
 ComponentIsDeviceSheet35=0
 ComponentLibIdentifierKind36=Library Name And Type
 ComponentLibraryIdentifier36=LIBRARY_SCH.SCHLIB
-ComponentDesignItemID36=
+ComponentDesignItemID36=LED_SMD_90deg_mini_G
 ComponentSymbolReference36=LED_SMD_90deg_mini_G
 ComponentUpdate36=0
 ComponentIsDeviceSheet36=0
 ComponentLibIdentifierKind37=Library Name And Type
 ComponentLibraryIdentifier37=LIBRARY_SCH.SCHLIB
-ComponentDesignItemID37=
+ComponentDesignItemID37=LED_SMD_90deg_mini_R
 ComponentSymbolReference37=LED_SMD_90deg_mini_R
 ComponentUpdate37=0
 ComponentIsDeviceSheet37=0
