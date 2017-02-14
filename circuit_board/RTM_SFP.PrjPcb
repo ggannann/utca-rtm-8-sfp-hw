@@ -205,7 +205,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=GBRGEDMJ
+DocumentUniqueId=EXWFWXHF
 
 [Document11]
 DocumentPath=Serial_Registers.SchDoc
@@ -297,8 +297,15 @@ UniqueID=FF231EE7-B2CF-4DCD-B2E8-41FDE2613107
 Description=White Rabbit Copper SFP
 AllowFabrication=1
 ParameterCount=0
-VariationCount=1
+VariationCount=8
 Variation1=Designator=R107A|UniqueId=\MNCBRCJQ\CHLKWVSA|Kind=1|AlternatePart= 
+Variation2=Designator=R107B|UniqueId=\URARFXLM\CHLKWVSA|Kind=1|AlternatePart= 
+Variation3=Designator=R107C|UniqueId=\RWXPLKLT\CHLKWVSA|Kind=1|AlternatePart= 
+Variation4=Designator=R107D|UniqueId=\WPHMMHJT\CHLKWVSA|Kind=1|AlternatePart= 
+Variation5=Designator=R107E|UniqueId=\JSMEJWHE\CHLKWVSA|Kind=1|AlternatePart= 
+Variation6=Designator=R107F|UniqueId=\POLVLCHA\CHLKWVSA|Kind=1|AlternatePart= 
+Variation7=Designator=R107G|UniqueId=\PBSHSFMH\CHLKWVSA|Kind=1|AlternatePart= 
+Variation8=Designator=R107H|UniqueId=\CVPJAOVD\CHLKWVSA|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -306,11 +313,39 @@ UniqueID=175F7EF1-9278-42A8-844D-A69ED8578922
 Description=Optical Output
 AllowFabrication=1
 ParameterCount=0
-VariationCount=4
+VariationCount=32
 Variation1=Designator=R105A|UniqueId=\MNCBRCJQ\QSJKCWQO|Kind=1|AlternatePart= 
 Variation2=Designator=IC20A|UniqueId=\MNCBRCJQ\CJWPMMCX|Kind=1|AlternatePart= 
 Variation3=Designator=C202A|UniqueId=\MNCBRCJQ\JSQQLYVV|Kind=1|AlternatePart= 
 Variation4=Designator=R109A|UniqueId=\MNCBRCJQ\AVOKBOOA|Kind=1|AlternatePart= 
+Variation5=Designator=IC20B|UniqueId=\URARFXLM\CJWPMMCX|Kind=1|AlternatePart= 
+Variation6=Designator=IC20D|UniqueId=\WPHMMHJT\CJWPMMCX|Kind=1|AlternatePart= 
+Variation7=Designator=IC20F|UniqueId=\POLVLCHA\CJWPMMCX|Kind=1|AlternatePart= 
+Variation8=Designator=IC20E|UniqueId=\JSMEJWHE\CJWPMMCX|Kind=1|AlternatePart= 
+Variation9=Designator=IC20G|UniqueId=\PBSHSFMH\CJWPMMCX|Kind=1|AlternatePart= 
+Variation10=Designator=IC20C|UniqueId=\RWXPLKLT\CJWPMMCX|Kind=1|AlternatePart= 
+Variation11=Designator=IC20H|UniqueId=\CVPJAOVD\CJWPMMCX|Kind=1|AlternatePart= 
+Variation12=Designator=R109B|UniqueId=\URARFXLM\AVOKBOOA|Kind=1|AlternatePart= 
+Variation13=Designator=R109C|UniqueId=\RWXPLKLT\AVOKBOOA|Kind=1|AlternatePart= 
+Variation14=Designator=R109D|UniqueId=\WPHMMHJT\AVOKBOOA|Kind=1|AlternatePart= 
+Variation15=Designator=R109E|UniqueId=\JSMEJWHE\AVOKBOOA|Kind=1|AlternatePart= 
+Variation16=Designator=R109F|UniqueId=\POLVLCHA\AVOKBOOA|Kind=1|AlternatePart= 
+Variation17=Designator=R109G|UniqueId=\PBSHSFMH\AVOKBOOA|Kind=1|AlternatePart= 
+Variation18=Designator=R109H|UniqueId=\CVPJAOVD\AVOKBOOA|Kind=1|AlternatePart= 
+Variation19=Designator=R105H|UniqueId=\CVPJAOVD\QSJKCWQO|Kind=1|AlternatePart= 
+Variation20=Designator=R105B|UniqueId=\URARFXLM\QSJKCWQO|Kind=1|AlternatePart= 
+Variation21=Designator=R105C|UniqueId=\RWXPLKLT\QSJKCWQO|Kind=1|AlternatePart= 
+Variation22=Designator=R105D|UniqueId=\WPHMMHJT\QSJKCWQO|Kind=1|AlternatePart= 
+Variation23=Designator=R105E|UniqueId=\JSMEJWHE\QSJKCWQO|Kind=1|AlternatePart= 
+Variation24=Designator=R105F|UniqueId=\POLVLCHA\QSJKCWQO|Kind=1|AlternatePart= 
+Variation25=Designator=R105G|UniqueId=\PBSHSFMH\QSJKCWQO|Kind=1|AlternatePart= 
+Variation26=Designator=C202E|UniqueId=\JSMEJWHE\JSQQLYVV|Kind=1|AlternatePart= 
+Variation27=Designator=C202B|UniqueId=\URARFXLM\JSQQLYVV|Kind=1|AlternatePart= 
+Variation28=Designator=C202C|UniqueId=\RWXPLKLT\JSQQLYVV|Kind=1|AlternatePart= 
+Variation29=Designator=C202F|UniqueId=\POLVLCHA\JSQQLYVV|Kind=1|AlternatePart= 
+Variation30=Designator=C202D|UniqueId=\WPHMMHJT\JSQQLYVV|Kind=1|AlternatePart= 
+Variation31=Designator=C202G|UniqueId=\PBSHSFMH\JSQQLYVV|Kind=1|AlternatePart= 
+Variation32=Designator=C202H|UniqueId=\CVPJAOVD\JSQQLYVV|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
