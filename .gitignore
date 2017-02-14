@@ -1,3 +1,9 @@
 *.Zip
-circuit_board/__Previews/RTM_SFP.PcbDocPreview
+circuit_board/__Previews*
 *.htm
+*circuit_board/Project*
+
+*.Dat
+*.xls
+*.xlsx
+*.rar
