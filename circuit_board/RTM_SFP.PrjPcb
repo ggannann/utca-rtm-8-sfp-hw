@@ -205,7 +205,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=EXWFWXHF
+DocumentUniqueId=RLFNGMBC
 
 [Document11]
 DocumentPath=Serial_Registers.SchDoc
@@ -297,7 +297,7 @@ UniqueID=FF231EE7-B2CF-4DCD-B2E8-41FDE2613107
 Description=White Rabbit Copper SFP
 AllowFabrication=1
 ParameterCount=0
-VariationCount=8
+VariationCount=9
 Variation1=Designator=R107A|UniqueId=\MNCBRCJQ\CHLKWVSA|Kind=1|AlternatePart= 
 Variation2=Designator=R107B|UniqueId=\URARFXLM\CHLKWVSA|Kind=1|AlternatePart= 
 Variation3=Designator=R107C|UniqueId=\RWXPLKLT\CHLKWVSA|Kind=1|AlternatePart= 
@@ -306,6 +306,7 @@ Variation5=Designator=R107E|UniqueId=\JSMEJWHE\CHLKWVSA|Kind=1|AlternatePart=
 Variation6=Designator=R107F|UniqueId=\POLVLCHA\CHLKWVSA|Kind=1|AlternatePart= 
 Variation7=Designator=R107G|UniqueId=\PBSHSFMH\CHLKWVSA|Kind=1|AlternatePart= 
 Variation8=Designator=R107H|UniqueId=\CVPJAOVD\CHLKWVSA|Kind=1|AlternatePart= 
+Variation9=Designator=L4|UniqueId=\DNXMKOQK\XDWIWOXQ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -313,7 +314,7 @@ UniqueID=175F7EF1-9278-42A8-844D-A69ED8578922
 Description=Optical Output
 AllowFabrication=1
 ParameterCount=0
-VariationCount=32
+VariationCount=33
 Variation1=Designator=R105A|UniqueId=\MNCBRCJQ\QSJKCWQO|Kind=1|AlternatePart= 
 Variation2=Designator=IC20A|UniqueId=\MNCBRCJQ\CJWPMMCX|Kind=1|AlternatePart= 
 Variation3=Designator=C202A|UniqueId=\MNCBRCJQ\JSQQLYVV|Kind=1|AlternatePart= 
@@ -346,6 +347,7 @@ Variation29=Designator=C202F|UniqueId=\POLVLCHA\JSQQLYVV|Kind=1|AlternatePart=
 Variation30=Designator=C202D|UniqueId=\WPHMMHJT\JSQQLYVV|Kind=1|AlternatePart= 
 Variation31=Designator=C202G|UniqueId=\PBSHSFMH\JSQQLYVV|Kind=1|AlternatePart= 
 Variation32=Designator=C202H|UniqueId=\CVPJAOVD\JSQQLYVV|Kind=1|AlternatePart= 
+Variation33=Designator=L4|UniqueId=\DNXMKOQK\XDWIWOXQ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -356,6 +358,7 @@ ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=
+ConfigurationType=
 
 [Configuration2]
 Name=Default Configuration
@@ -365,6 +368,7 @@ ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=
+ConfigurationType=
 
 [Generic_EDE]
 OutputDir=
@@ -479,16 +483,6 @@ OutputName21=XSpice Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
-OutputType22=Verilog
-OutputName22=Verilog File
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=VHDL
-OutputName23=VHDL File
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -578,54 +572,6 @@ OutputDocumentPath12=
 OutputVariantName12=[No Variations]
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType13=Assembler Source Print
-OutputName13=Assembler Source Prints
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType14=C Source Print
-OutputName14=C Source Prints
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType15=C/C++ Header Print
-OutputName15=C/C++ Header Prints
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType16=C++ Source Print
-OutputName16=C++ Source Prints
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType17=FSM Print
-OutputName17=FSM Prints
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType18=Logic Analyser Print
-OutputName18=Logic Analyser Prints
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType19=OpenBus Print
-OutputName19=OpenBus Prints
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
-PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType20=VHDL Print
-OutputName20=VHDL Prints
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
-PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -726,48 +672,48 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=\\phoenix\Anel-Canto-Oeste
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Script
-OutputName1=Script Output
+OutputType1=BOM_PartType
+OutputName1=Bill of Materials
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-OutputType2=SimpleBOM
-OutputName2=Simple BOM
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=Filter
+Configuration1_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A2400000001000000000003000000596573070000004D6F756E7465640112030000005900650073000000
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ForceFit=True|NotFitted=False|Database=True|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=3039|FormHeight=857|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=Part Number=True
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Designator=205|Part Number=224|Part Description=540|Quantity=53|Manufacturer Part Number=132|Manufacturer1 ComponentHeight=132|Manufacturer1 Example=132|Manufacturer1 Part Number=132|Mounted=132|PressFit=119|Resistance=119|SMD=119|TC=119|Tolerance=119|Value=119|Voltage=118|Comment=100|Description=100
+OutputType2=ComponentCrossReference
+OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=SinglePinNetReporter
-OutputName3=Report Single Pin Nets
+OutputType3=ReportHierarchy
+OutputName3=Report Project Hierarchy
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=BOM_PartType
-OutputName4=Bill of Materials
+OutputType4=Script
+OutputName4=Script Output
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
-Configuration4_Name1=ColumnNameFormat
-Configuration4_Item1=CaptionAsName
-Configuration4_Name2=Filter
-Configuration4_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A2400000001000000000003000000596573070000004D6F756E7465640112030000005900650073000000
-Configuration4_Name3=General
-Configuration4_Item3=OpenExported=False|AddToProject=False|ForceFit=True|NotFitted=False|Database=True|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=3039|FormHeight=857|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
-Configuration4_Name4=GroupOrder
-Configuration4_Item4=Part Number=True
-Configuration4_Name5=SortOrder
-Configuration4_Item5=Designator=Up|Comment=Up|Footprint=Up
-Configuration4_Name6=VisibleOrder
-Configuration4_Item6=Designator=205|Part Number=224|Part Description=540|Quantity=53|Manufacturer Part Number=132|Manufacturer1 ComponentHeight=132|Manufacturer1 Example=132|Manufacturer1 Part Number=132|Mounted=132|PressFit=119|Resistance=119|SMD=119|TC=119|Tolerance=119|Value=119|Voltage=118|Comment=100|Description=100
-OutputType5=ComponentCrossReference
-OutputName5=Component Cross Reference Report
+OutputType5=SimpleBOM
+OutputName5=Simple BOM
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=ReportHierarchy
-OutputName6=Report Project Hierarchy
+OutputType6=SinglePinNetReporter
+OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
@@ -1045,7 +991,7 @@ OutputDefault9=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=\\phoenix\Anel-Canto-Oeste
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
